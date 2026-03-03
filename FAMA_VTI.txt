@@ -1,0 +1,53 @@
+Assignment Overview
+The Fama-French factor models are the cornerstone of modern asset pricing. They provide a framework for understanding why different investments earn different returns—not because of manager skill, but because of their exposure to systematic, compensated risks.
+In this assignment, you will play the role of a AI driven quantitative analyst. You will empirically test how well these famous models explain the returns of VTI, the Vanguard Total Stock Market ETF, which serves as a broad proxy for the entire U.S. stock market. 
+This hands-on project will teach you how to acquire, clean, and analyze financial data, run and interpret statistical regressions, and communicate your findings professionally by using AI.
+
+Learning Objectives
+By completing this assignment, you will learn how to use AI to:
+•	Understand how multi-factor models explain portfolio returns.
+•	Master regression diagnostics, including rolling analysis and residual tests.
+•	Develop professional reporting and data visualization skills.
+•	Gain practical intuition for factor investing and performance attribution.
+
+Tasks
+PART 1: DATA PREPARATION 
+1.	Data Acquisition:
+•	Download monthly total returns for the ETF VTI from January 2011 to December 2024. (Hint: Yahoo Finance API is a good source).
+•	Download the monthly Fama-French factor data (3-Factor, Momentum, and 5-Factor) from Kenneth French’s Data Library.
+
+2.	Data Cleaning & Merging:
+•	Clean both datasets, ensuring all dates are aligned to month-end.
+•	Handle any missing data appropriately.
+•	Merge the VTI returns with the Fama-French factors into a single pandas DataFrame. Your final DataFrame must contain the following columns: date_str, Return, RF, Mkt-RF, SMB, HML, Mom, RMW, CMA.
+•	Tip: Be prepared to handle MultiIndex, Series, DatetimeIndex, and missing values.
+
+PART 2: REGRESSION ANALYSIS 
+Using the excess return of VTI (Return - RF) as your dependent variable, run the following three regressions:
+1.	Fama-French 3-Factor Model: Excess Return = α + β₁(Mkt-RF) + β₂(SMB) + β₃(HML) + ε
+2.	Carhart 4-Factor Model: Excess Return = α + β₁(Mkt-RF) + β₂(SMB) + β₃(HML) + β₄(Mom) + ε
+3.	Fama-French 5-Factor Model: Excess Return = α + β₁(Mkt-RF) + β₂(SMB) + β₃(HML) + β₄(RMW) + β₅(CMA) + ε
+
+For each model, please report:
+•	The annualized alpha (α * 12).
+•	The factor betas (β) and their corresponding p-values.
+•	The R-squared value.
+•	A brief interpretation: Is the alpha statistically significant (p-value < 0.05)? Is it economically significant (e.g., is the annualized alpha large enough to matter after fees)?
+
+PART 3: DIAGNOSTICS & EXTENSIONS 
+1.	Rolling Regressions:
+•	Calculate the 36-month rolling alpha and rolling R-squared for all three models.
+•	Create and include plots showing how these values change over time.
+2.	Residual Analysis:
+•	For the 5-Factor model, create two diagnostic plots:
+•	A plot of residuals vs. fitted values.
+•	A Q-Q plot of the residuals.
+•	Briefly comment: Is there evidence of non-normality or heteroscedasticity?
+3.	Factor Correlations:
+•	Create a heatmap showing the correlation matrix between all six factors: Mkt-RF, SMB, HML, Mom, RMW, CMA.
+4.	Cumulative Alpha:
+•	Calculate and plot the cumulative abnormal return (i.e., the cumulative sum of the monthly alpha) over time for all three models on a single chart.
+5.	Out-of-Sample Forecast:
+•	Use the first 80% of your data to estimate the 5-Factor model.
+•	Use the estimated coefficients to forecast excess returns for the remaining 20% of the data.
+•	Calculate and report the Mean Squared Error (MSE) and Mean Absolute Error (MAE) of your forecasts.
