@@ -33,10 +33,8 @@ This project helped me practice:
 <li>Plan for transportation cost volatility.
 <li>Build scenario-based planning around fuel and demand changes.
 
-### Tech Stack
-[Working Code]()
+### Tech Stack & [Working Code]()
 Python: Pandas, NumPy, Statsmodels, Matplotlib
 
-### Data Used
-[Data Folder](Data)<br/>
+### [Data Used](Data)
 CPIETRANS.csv, POILWTIUSDM-CrudeOilPrice.csv, USACSCICP02STSAM-ConsumerConfidence.csv, RIELPCFANNM-AvgCarLoanPrice.csv
