@@ -1,4 +1,12 @@
-# All Projects
+# Business Analyst
+
+### Education
+MS in Business Analytics
+
+### Work Experience
+
+
+### All Projects
 [Supply Chain] Forecasting Methods Project <br/>
 Title: <b>[Forecasting Transportation Cost Trends with Macro factors](https://github.com/vrameshAvadhaani/Portfolio/tree/Forecasting_Methods_CPIETRANS_with_exogenous)<b/>
 
