@@ -37,5 +37,5 @@ This project helped me practice:
 Python: Pandas, NumPy, Statsmodels, Matplotlib
 
 ### Data Used
-< Data Folder> <br/>
+[Open folder](/data)<br/>
 CPIETRANS.csv, POILWTIUSDM-CrudeOilPrice.csv, USACSCICP02STSAM-ConsumerConfidence.csv, RIELPCFANNM-AvgCarLoanPrice.csv
