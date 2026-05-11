@@ -6,7 +6,7 @@ To learn more about my professional experiences please find me on [LinkedIn:Vikr
 
 ### All Projects
 [Supply Chain] <br/>
-Title: <b>[Forecasting Transportation Cost Trends with Macro factors](https://github.com/vrameshAvadhaani/Portfolio/tree/Forecasting_Methods_CPIETRANS_with_exogenous)<br/>
+Title: <b>[Forecasting Transportation Cost Trends with Macro factors]<b/>(https://github.com/vrameshAvadhaani/Portfolio/tree/Forecasting_Methods_CPIETRANS_with_exogenous)<br/>
 
 I built a time-series forecasting model to predict CPIETRANS using a SARIMAX framework with three external drivers: consumer confidence, average car loan rate, and crude oil price.<br/>
 
