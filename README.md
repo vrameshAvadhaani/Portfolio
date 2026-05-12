@@ -33,7 +33,7 @@ This project helped me practice:
 <li>Plan for transportation cost volatility.
 <li>Build scenario-based planning around fuel and demand changes.
 
-### Tech Stack & [Working Code]()
+### Tech Stack & [Working Code](Resources/CPIETRANSvsExogenous.ipynb)
 Python: Pandas, NumPy, Statsmodels, Matplotlib
 
 ### [Data Used](Data)
