@@ -6,8 +6,9 @@ To learn more about my professional experiences please find me on [LinkedIn:Vikr
 
 ### Project showcase
 <b>[Forecasting Transportation Cost Trends with Macro factors](https://github.com/vrameshAvadhaani/Portfolio/tree/Forecasting_Methods_CPIETRANS_with_exogenous)</b><br/>
-Industry: <b>Supply Chain<b/>, <b>Transportation<b/>, <b>Retail<b/> <br/>
-Tech Stack: <b>Python<b/>, Statistical Methods: <b>Forecasting (SARIMAX)<b/>
+Industry: <b>Supply Chain<b/>, <b>Transportation<b/>, <b>Retail<b/> 
+<br/>
+Tech Stack: Python, Statistical Methods: Forecasting
 
 I built a time-series forecasting model to predict CPIETRANS using a SARIMAX framework with three external drivers: consumer confidence, average car loan rate, and crude oil price.<br/>
 
