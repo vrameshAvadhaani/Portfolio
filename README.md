@@ -20,7 +20,6 @@ The purpose of the project was to test whether macroeconomic indicators could im
 MS in Business Analytics @ University of Dallas, Irving TX (2025) <br/>
 BE in Electronics & Communication @ VTU Karnataka, India (2006)
 
-### Work Experience
 
 
 
