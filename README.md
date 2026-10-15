@@ -1,4 +1,4 @@
-# Business Analyst
+# Product Manager / Product Analyst
 ### Professional Summary
 With over 15+ years of IT industry experience, I have helped transform many businesses and industries, through engineering (software development) and in later part of my career with Product Management. <br/>
 With my Masters Degree on Business Analytics, I now take on understanding Data and generating key insights, providing confidence to decision makers across industries. <br/>
